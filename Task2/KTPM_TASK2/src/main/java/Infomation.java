@@ -1,13 +1,11 @@
-package $com.iuh.huy.Attribute;
-
-public class Information {
-
+public class Infomation {
     private String name;
     private int tuoi;
     private float height;
     private float weight;
 
-    public information(String name, int tuoi, float height, float weight) {
+    public Infomation(String name, int tuoi, float height, float weight) {
+        super();
         this.name = name;
         this.tuoi = tuoi;
         this.height = height;
@@ -49,9 +47,4 @@ public class Information {
     public void calcBMI() {
 
     }
-
-
-
-
-
 }
